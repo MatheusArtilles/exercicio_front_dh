@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/criar.css">
+    <script src="https://kit.fontawesome.com/c600d5d8fe.js" crossorigin="anonymous"></script>
+    <title>Criar Personagem</title>
+</head>
+<body>
+    
+    <div class="desconto">
+        <span>Descontos de até 20%</span>
+    </div>
+    <header class="cabecalho">
+        <h1>
+            Card Super Heróis
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Registrar</a></li>
+                <li><a href="">Logar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contain">
+        
+        <section>
+            <div class="cabecalho-contain">
+                <h2>Adicionar seu super-herói</h2>
+                <p>
+                    Adicione seu personagem favorito completando as informações
+                </p>
+            </div>
+            <div class="form-">
+                <div class="input-form">
+                    <label class="label" for="Nome">*Nome</label>
+                    <input class="selecoes" type="text" name="" id="Nome">
+                </div>
+                <div class="input-form">
+                    <label class="label" for="especie">*Espécie</label>
+                    <select class="selecoes" name="" id="especie">
+                        <option value="" disabled selected>Selecione...</option>
+                        <option value="especie-1">Águia</option>
+                        <option value="especie-2">Terra</option>
+                        <option value="especie-3">Água</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-">
+                <div class="input-form">
+                    <label class="label" for="data">Data</label>
+                    <input class="selecoes" type="date" name="" id="data">
+                </div>
+                <div class="input-form">
+                    <label class="label" for="arquivo">Adicionar Foto</label>
+                    <input class="file" type="file" name="" id="arquivo">
+                </div>
+            </div>
+            
+            <div class="form-">
+                
+                <textarea name="" id="" placeholder="Descrição"></textarea>
+                
+
+                <div class="poderes">
+                    <div class="input-form">
+                        <h3>Poderes</h3>
+                        <div>
+                            <input type="checkbox" checked name="" id="value-1">
+                            <label for="value-1">Voar</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="" id="value-2">
+                            <label for="value-2">Super Inteligência</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="" id="value-3">
+                            <label for="value-3">Vista de raio laser</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="" id="value-4">
+                            <label for="value-4">Super rico</label>
+                        </div>
+                        
+                        <div class="radio">
+                            <h3>Tipo de personagem</h3>
+                            <div>
+                                <input type="radio" name="hero" id="heroi">
+                                <label for="heroi">Herói / Heroína</label>
+                            </div>
+                            
+                            <div>
+                                <input type="radio" name="hero" id="vilao">
+                                <label for="vilao">vilão / vilã</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+
+                </div>
+            </div>
+            <div class="add">
+                <button>Adicionar</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados a <span>front end</span> 1</p>
+
+        <a class="link" href="">
+            <i class="fa-brands fa-square-github fa-3x"></i>
+        </a>
+    </footer>
+</body>
+</html>

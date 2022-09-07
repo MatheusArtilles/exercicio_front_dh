@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    
+    
+}
+.desconto {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    text-align: left;
+    height: 38px;
+    width: 100%;
+    font-size: 15px;
+    background-color: #D1891C;
+}
+.desconto span{
+    position: absolute;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    line-height: 18px;
+}
+
+.cabecalho {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 38px;
+    width: 100vw;
+    background: #00669F;
+    box-shadow: 0px 10px 7px  rgba(0, 0, 0, 0.25);
+}
+.cabecalho nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #001D2D;
+    margin-top: 25px;
+}
+.cabecalho nav ul {
+    margin-right: 50px;
+    padding: 10px;
+    display: flex;
+}
+.cabecalho nav ul li {
+    margin-right: 15px;
+}
+.cabecalho nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.cabecalho h1{
+    position: relative;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    left: 28px;
+    top: 20px;
+}
+.adicionar {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    padding: 10px;
+    top: 200px;
+}
+.adicionar button {
+    width: 80px;
+    padding: 20px;
+    background-color: #00669F;
+    cursor: pointer;
+    
+    border: none;
+    outline: none;
+    border-radius: 300px;
+}
+.adicionar button:hover {
+    background-color: #001D2D;
+    transition: all .6s;
+}
+.adicionar button a {
+    color: #fff;
+}
+.conteudo {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.conteudo .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo .cards .cards-group {
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+.conteudo .cards .cards-group .card {
+    display: flex;
+    background-color: #c4c4c4;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px 40px 0px 0px;
+    margin: 20px;
+    width: 300px;
+   
+
+}
+
+.conteudo .cards .cards-group .card .capa-1 {
+    background-image: url(../img/mask-2.png);
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 40px 40px 0px 0px;
+    height: 220px;
+    
+}
+
+.conteudo .cards .cards-group .card .capa-2{
+    background-image: url(../img/mask.png);
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 40px 40px 0px 0px;
+    height: 220px;
+}
+
+.conteudo .cards .cards-group .card .capa-3{
+    background-image: url(../img/msk.png);
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 20px; 
+    height: 220px;
+}
+
+.conteudo .cards .cards-group .card .capa-4{
+    background-image: url(../img/capa-mulher-maravilha.png);
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 220px;
+}
+
+
+.conteudo .cards .cards-group .card .capa-1 img {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.conteudo .cards .cards-group .card .capa-2 img {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.conteudo .cards .cards-group .card .capa-3 img {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.conteudo .cards .cards-group .card .capa-4 img {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.conteudo .cards .cards-group .card .perfil {
+    position: relative;
+    bottom: 80px;
+}
+.conteudo .cards .cards-group .card .perfil img {
+    border-radius: 500px;
+}
+.conteudo .cards .cards-group .card .texto {
+    position: relative;
+    bottom: 70px;
+    display: flex;
+    align-items: center;
+    color: #333;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    padding: 20px;
+}
+.conteudo .cards .cards-group .card .texto h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   
+}
+.conteudo .cards .cards-group .card .texto button {
+    margin-top: 80px;
+    width: 145px;
+    height: 54px;
+    background: #00669F;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 12px;
+    color: #F3F3F3;
+}
+
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #00669F;
+}
+footer p {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFF9F9;
+    margin-top: 15px;
+}
+footer p span {
+    text-transform: uppercase;
+}
+footer .link {
+    margin-right: 40px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    .conteudo .cards .cards-group {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer p {
+        margin-right: 50px;
+    }
+}

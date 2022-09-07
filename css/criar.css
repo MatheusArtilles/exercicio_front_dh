@@ -1,0 +1,145 @@
+main.contain {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 100vw;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main.contain section {
+    width: 60%;
+    background-color: #00669F;
+    border-radius: 12px;
+    min-width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+main.contain section .cabecalho-contain {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+main.contain section .form- {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+main.contain section .form- .input-form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+main.contain section .form- .input-form label{
+    color: #fff;
+}
+main.contain section .form- .input-form .selecoes {
+    width: 302px;
+    height: 50px;
+    border-radius: 12px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+
+}
+main.contain section .form- .input-form input[type="file"]{
+    outline: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    width: 40px;
+   
+}
+main.contain section .form- textarea {
+    width: 38%;
+    height: 350px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 12px;
+    min-width: 30%;
+    min-height: 250px;
+    max-width: 60%;
+    max-height: 400px;
+}
+main.contain section .form- .poderes {
+    width: 35%;
+}
+main.contain section .form- .poderes .input-form input {
+    
+    width: 20px;
+    height: 20px;
+}
+main.contain section .form- .input-form .label {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+main.contain section .form- .poderes h3 {
+    color: #fff;
+}
+
+main.contain section .form- .poderes .input-form input, label{
+    margin-top: 10px;
+}
+main.contain section .form- .input-form .radio {
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+main.contain section .add {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main.contain section .add button {
+    outline: none;
+    border: none;
+    background-color: #1CD1B0;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: 700;
+    width: 465px;
+    height: 87px;
+    border-radius: 12px;
+}
+main.contain section .add button:hover {
+    background-color: #001D2D;
+    color: #fff;
+    transition: all .6s;
+
+}
+
+
+
+@media (max-width: 800px){
+    main.contain section .form-{
+        flex-direction: column;
+        align-items: center;
+    }
+    main.contain section .form- textarea{
+        width: 60%;
+    }
+    main.contain section .form- .poderes {
+        width: 100%;
+    }
+    main.contain section .form- .input-form .selecoes{
+        width: 250px;
+    }
+    main.contain section .add button{
+        width: 50%;
+    }
+    footer {
+
+        flex-direction: column;
+    }
+    footer p {
+        margin-right: 50px;
+    }
+}
